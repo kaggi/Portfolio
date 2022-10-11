@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lola V.V. Lohne. My Portfolio page" />
+    <title>Lola V.V. Lohne | Portfolio</title>
+
+    <!--Styles-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/media.css" rel="stylesheet" />
+    <!--End styles-->
+
+</head>
+<body>
+    <main>
+
+        <h1>Welcome to my portfolio</h1>
+        
+           
+        <nav class="navigation_buttons">
+            <a href="#" class="navigation_button" id="about_me_button">About me</a>
+            <a href="#" class="navigation_button" id="my_projects_button">My projects</a>
+        </nav>
+
+        <container class="page_parts" id="page_parts_container">
+
+            <!--Info about me-->
+                
+            <div id="about_me">
+                <h2>About me</h2>
+
+                <div class="profile_image">
+                    <img src="images/lola_lohne.jpg" alt="This is me" id="my_photo"/>
+                </div> 
+
+                <div id="personal_info">
+                        
+                    <p class="info_lable" id="name_lable">Name</p>
+                    <p id="name">Lola V.V. Lohne</p>
+                      
+                    <p class="info_lable" id="born_lable">Born</p>
+                    <p id="born_city">St.Petersburg, Russia</p>
+                        
+                    <p class="info_lable" id="live_lable">Currently live</p>
+                    <p id="live_city">Bergen, Norway</p>
+                        
+                    <p class="info_lable" id="work_lable">Work</p>
+                    <p id="work">Western Norway University of Applied Science</p>
+                            
+                    <p class="info_lable" id="department_lable">Department</p>
+                    <p id="department">IT</p>
+                            
+                    <p class="info_lable" id="hobbies_lable">Hobbies</p>
+                    <ul id="hobbies_list">
+                            <li>CRPG</li>
+                            <li>Guitar</li>
+                            <li>Music</li>
+                    </ul>
+                    
+         
+                    <p class="info_lable" id="email_lable">E-mail</p>
+                    <p id="email">lola.lohne@gmail.com</p>
+                        
+                    <p class="info_lable" id="github_lable">GitHub</p>
+                    <a href="https://github.com/kaggi" id="github_link" target="blank">https://github.com/kaggi</a>
+                    
+                    <p>Do not hesistate to contact me</p> 
+                </div>
+                <div id="page_footer">
+
+                </div>
+                  
+                
+            </div>
+            <!--End Info about me-->
+
+            <!--Projects-->
+            <div id="my_projects">
+                <h2>These are my projects</h2>
+
+                <div class="project_cards" >
+                    <div class="project_card" id="square_eyes_project_card">
+                        <h3>Square Eyes</h3>
+                        <div class="project_image_container">
+                            <img src="images/Square_Eyes.jpg" class="project_image" alt="Square Eyes page image" />
+                        </div>
+                        <h4>Project description</h4>
+                        <p>Intension back Squqre Eyes is a meeting point where independent filmmakers will be able to show their films for a pay-per-view, and film enthusiasts will have access to new products that might not be available in other ways. This a web streaming service, which will give the creators opportunity to meet publicum and start earning money without large investments in advertising, as well as it will give an opportunity for viewers to satisfy their curiosity about new and alternative trends in film industry, discover new names and support film makers they like.</p>
+                        <div class="project_links" id="square_eyes_project_links">
+                            <a href="https://visionary-sunflower-b6db3c.netlify.app/" class="project_link" id="square_eyes_live_link" target="blank">Click to visit page live</a>
+                            <a href="https://github.com/kaggi/Square-Eyes-V4" class="project_link" id="square_eyes_github_link" target="blank">Click to visit project GitHub repository</a>
+                        </div>
+                    </div>
+
+                    <div class="project_card" id="community_science_museum_project_card">
+                        <h3>Community Science Museum</h3>
+                        <img src="images/Community_Science_Museum.jpg" class="project_image" alt="Community Science Museum page image" />
+                        <h4>Project description</h4>
+                        <p>Community Science Museum website provides information on Museum exhibitions, address, working hours, organizing visits, coming events and possible cooperation. It will help to plan a visit, find out about new exhibitions and organize educational or extracurricular activities.</p>
+                        <div class="project_links" id="community_science_museum_project_links">
+                            <a href="https://eloquent-shaw-83d71b.netlify.app/" class="project_link" id="community_science_museum_live_link" target="blank">Click to visit page live</a>
+                            <a href="https://github.com/kaggi/Community-Science-Museum" class="project_link" id="community_science_museum_github_link" target="blank">Click to visit project GitHub repository</a>
+                        </div>
+                    </div>
+
+                    <div class="project_card" id="might_and_magic_worlds_project_card">
+                        <h3>Might and Magic Worlds</h3>
+                        <img src="images/Might_and_Magic_Worlds.jpg" class="project_image" alt="Might and Magic Worlds page image" />
+                        <h4>Project description</h4>
+                        <p>A blog about Might and Magic CRPG series and playing throug all games in series in chronological order.</p>
+                        <div class="project_links" id="might_and_magic_worlds_project_links">
+                            <a href="https://ephemeral-tiramisu-946513.netlify.app/" class="project_link" id="might_and_magic_worlds_live_link" target="blank">Click to visit page live</a>
+                            <a href="https://github.com/Noroff-FEU-Assignments/project-exam-1-kaggi" class="project_link" id="might_and_magic_worlds_github_link" target="blank">Click to visit project GitHub repository</a>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div id="page_footer">
+                    
+                </div>
+            </div>
+            
+            
+            <!--End Projects-->
+        </container>
+        
+        
+
+    </main>    
+    <script src="js/index.js"></script>
+</body>
+</html>
