@@ -1,13 +1,53 @@
-@media only screen and (min-device-width: 300px) {
+@media only screen and (min-device-width: 400px) {
+  
+  .navigation_buttons {
+    flex-direction: row;         
+    text-align: left;    
+  }
+
+  .navigation_button {
+    padding: 10px 20px 10px 20px;
+    
+  }
+
+  h1 {
+    font-size: 30px;
+    letter-spacing: normal;
+  }
+  
+  h2 {
+    font-size: 25px;
+    letter-spacing: normal;
+  }
+  
+  h3, h4, p, a, li {
+    font-size: 20px;
+    letter-spacing: normal;
+  }
+    
 }
 
 @media only screen and (min-device-width: 600px) {
+
+  .project_card {
+    max-width: 600px;
+  }
+
+    .project_image {
+      max-width: 500px;
+    }
+    
 }
 
 @media only screen and (min-device-width: 900px) {
 }
 
 @media only screen and (min-device-width: 1200px) {
+  body {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media only screen and (min-device-width: 1400px) {

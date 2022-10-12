@@ -1,4 +1,4 @@
-console.log("Hello, world!");
+
 
 const aboutMeButton = document.querySelector("#about_me_button");
 const myProjectsButton = document.querySelector("#my_projects_button");
